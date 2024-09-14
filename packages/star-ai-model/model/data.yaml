@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['gun']
+
+roboflow:
+  workspace: gun-detection-1lttj
+  project: gun-detection-1fbbu
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/gun-detection-1lttj/gun-detection-1fbbu/dataset/1

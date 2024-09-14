@@ -1,11 +1,18 @@
 {
-  "name": "stars-vttech",
+  "name": "stars-vthacks",
   "module": "index.ts",
   "type": "module",
+  "workspaces": [
+    "packages/star-ai-backend",
+    "apps/star-ai-frontend",
+    "packages/star-ai-model"
+  ],
   "devDependencies": {
     "@types/bun": "latest"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
   }
 }

@@ -2,12 +2,12 @@ train: ../train/images
 val: ../valid/images
 test: ../test/images
 
-nc: 1
-names: ['gun']
+nc: 6
+names: ['0', '1', '2', '3', '4', '5']
 
 roboflow:
-  workspace: gun-detection-1lttj
-  project: gun-detection-1fbbu
-  version: 1
-  license: CC BY 4.0
-  url: https://universe.roboflow.com/gun-detection-1lttj/gun-detection-1fbbu/dataset/1
+  workspace: stars-siekc
+  project: simple-threat-analyzer-bvnlm
+  version: 2
+  license: Private
+  url: https://app.roboflow.com/stars-siekc/simple-threat-analyzer-bvnlm/2

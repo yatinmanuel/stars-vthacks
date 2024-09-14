@@ -17,4 +17,5 @@ This project was created using `bun init` in bun v1.1.18. [Bun](https://bun.sh) 
 ## Environment Variables
 ```bash
 PORT=5123
+HOST=localhost
 ```
